@@ -51,7 +51,9 @@
   background-image: url("../img/header_banner_2.png");
   background-size: cover;
   background-position: center;
-  height: 20em;
+  height: 15em;
+  opacity: 0.6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 html[data-theme="dark"] {
