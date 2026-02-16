@@ -25,3 +25,11 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+gem "logger", "~> 1.7"
+
+gem "csv", "~> 3.3"
+
+gem "ostruct", "~> 0.6.3"
+
+gem "observer", "~> 0.1.2"
