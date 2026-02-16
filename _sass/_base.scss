@@ -1102,3 +1102,236 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+/* Site-specific polish */
+.post {
+  border-radius: 20px;
+}
+
+.post-header .post-title {
+  letter-spacing: -0.02em;
+}
+
+.tutorial-main-title {
+  margin-bottom: 1.25rem;
+}
+
+.hero-panel {
+  margin: 2rem auto 2.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, var(--global-gradient-start), transparent 70%);
+  border: 1px solid var(--global-divider-color);
+}
+
+.hero-tagline {
+  font-size: 1.35rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.section-grid {
+  padding: 1.5rem 0;
+  max-width: 1200px;
+}
+
+.card-link-reset {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.card.hoverable {
+  border-radius: 16px;
+  border: 1px solid var(--global-divider-color);
+  box-shadow: 0 8px 25px var(--global-shadow-color);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.card.hoverable:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px var(--global-shadow-color);
+}
+
+.feature-card {
+  height: 100%;
+  padding: 2rem;
+  background: linear-gradient(180deg, var(--global-soft-bg-color), var(--global-card-bg-color));
+}
+
+.feature-card-lg {
+  padding: 2.5rem;
+}
+
+.feature-icon {
+  font-size: 3.2rem;
+  margin-bottom: 0.9rem;
+}
+
+.feature-title {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.feature-title-lg {
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+}
+
+.feature-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+}
+
+.feature-text-lg {
+  font-size: 1rem;
+}
+
+.tutorial-card .card-body {
+  padding: 1.4rem;
+}
+
+.tutorial-card .btn-primary,
+.session-card .btn-primary {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+
+.tutorial-card .btn-primary:hover,
+.session-card .btn-primary:hover {
+  background-color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+
+.session-card {
+  border: 2px solid var(--global-theme-color);
+}
+
+.session-card-body {
+  padding: 2rem;
+}
+
+.session-title {
+  color: var(--global-theme-color);
+  margin-bottom: 1rem;
+}
+
+.session-abstract {
+  color: var(--global-text-color-light);
+}
+
+.session-actions {
+  padding: 1rem;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.session-emoji {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.people-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.people-card-image-wrap {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background-color: var(--global-soft-bg-color);
+}
+
+.people-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.people-card-body {
+  padding: 0.6rem;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.people-card-name {
+  font-size: 0.88rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
+
+.people-card-affiliation {
+  font-size: 0.76rem;
+  margin-bottom: 0;
+  line-height: 1.35;
+}
+
+.github-repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.github-repo-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px;
+  padding: 1rem;
+  background: linear-gradient(180deg, var(--global-soft-bg-color), var(--global-card-bg-color));
+  box-shadow: 0 8px 20px var(--global-shadow-color);
+}
+
+.github-repo-card__header {
+  margin-bottom: 0.5rem;
+}
+
+.github-repo-card__name {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.github-repo-card__description {
+  font-size: 0.92rem;
+  min-height: 2.8rem;
+  margin-bottom: 0.8rem;
+  color: var(--global-text-color-light);
+}
+
+.github-repo-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.github-repo-card__pill {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.78rem;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .hero-panel {
+    padding: 1.1rem 1.2rem;
+  }
+
+  .hero-tagline {
+    font-size: 1.15rem;
+  }
+
+  .feature-card,
+  .feature-card-lg,
+  .session-card-body {
+    padding: 1.4rem;
+  }
+}

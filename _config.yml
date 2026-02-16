@@ -5,8 +5,7 @@
 title: "Interpretable Deep Learning"
 email: mateoespinosaz2@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Project website for our AAAI 2026 Tutorial on Foundations of
-  Interpretable Deep Learning.
+  Project website for Interpretable Deep Learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Inspired by the NeurIPS'22 Workshop on SBMs' <a href="https://score-based-methods-workshop.github.io/" target="_blank">site</a>.
@@ -47,7 +46,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 980px
 
 # TODO: add layout settings (single page vs. multi-page)
 

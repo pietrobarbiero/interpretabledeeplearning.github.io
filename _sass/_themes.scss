@@ -7,8 +7,8 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #0f766e;
+  --global-hover-color: #0b5f5d;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -16,6 +16,10 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
+  --global-soft-bg-color: #f7fbfa;
+  --global-shadow-color: rgba(15, 118, 110, 0.15);
+  --global-gradient-start: rgba(15, 118, 110, 0.12);
+  --global-gradient-end: rgba(12, 74, 110, 0.08);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -48,12 +52,13 @@
 }
 
 .header-background .img {
-  background-image: url("../img/header_banner_2.png");
+  background-image: url("../img/header_banner_3.jpeg");
   background-size: cover;
   background-position: center;
   height: 15em;
-  opacity: 0.6;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 0 0 24px 24px;
 }
 
 html[data-theme="dark"] {
@@ -61,8 +66,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: #38b2ac;
+  --global-hover-color: #4fd1c5;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
@@ -70,6 +75,10 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --global-soft-bg-color: #1d2529;
+  --global-shadow-color: rgba(0, 0, 0, 0.35);
+  --global-gradient-start: rgba(56, 178, 172, 0.2);
+  --global-gradient-end: rgba(56, 103, 214, 0.18);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

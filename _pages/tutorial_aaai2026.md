@@ -5,20 +5,20 @@ title: AAAI 2026
 nav: false
 ---
 
-## Foundations of Interpretable Deep Learning
+<h2 class="text-center tutorial-main-title">Foundations of Interpretable Deep Learning</h2>
 
 <div style="margin: auto; text-align: center;">
   Tutorial held in conjunction with <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a><br>
 
   Singapore EXPO (Room Garnet 218), Singapore<br>
 
-  January 21st, 2026 from 8:30am to 12:30pm<br>
+  January 21, 2026 from 8:30 AM to 12:30 PM<br>
 
 </div>
 
 ## Material
 
-You can find our  **tutorial's slides** here ([pdf](/assets/documents/2026_AAAI_Foundations_Of_Interpretable_Deep_Learning_Tutorial_Slides_Final.pdf)).
+You can find our **tutorial slides** here ([pdf](/assets/documents/2026_AAAI_Foundations_Of_Interpretable_Deep_Learning_Tutorial_Slides_Final.pdf)).
 
 
 The first part of our talk was inspired by our position paper on ["Symmetries of Interpretable Models"](https://arxiv.org/abs/2601.12913).
@@ -26,7 +26,7 @@ The first part of our talk was inspired by our position paper on ["Symmetries of
 
 A recording of our presentation can be found here ([video](https://drive.google.com/file/d/1asgfetqidP8YYaaMtU5lFEhhDY1Mf4KV/view?usp=sharing)).
 
-For a **complete bibliography** of the topics and works discussed in this tutorial, pease refer to our [resources](/resources/) section.
+For a **complete bibliography** of the topics and works discussed in this tutorial, please refer to our [resources](/resources/) section.
 
 ## Schedule
 
@@ -124,8 +124,7 @@ Our material will assume a basic knowledge of ML (e.g., foundations of supervise
 
 ## Citing This Tutorial
 
-If you found this tutorial useful for your research, blogs, or work, we would be
-grateful if you would cite it as follows:
+If you found this tutorial useful for your research, blogs, or work, please cite it as follows:
 
 ```
 Barbiero P. and Espinosa Zarlenga M. (2026). Foundations of Interpretable Deep Learning. Tutorial at the Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI). https://interpretabledeeplearning.github.io/
@@ -138,7 +137,7 @@ Or use the following bibtex entry:
   title        = {Tutorial on Foundations of Interpretable Deep Learning (AAAI-2026)},
   author       = {Barbiero, P. and Espinosa Zarlenga, M.},
   year         = {2026},
-  howpublished = {Tutorial at the Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI)}
+  howpublished = {Tutorial at the Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI)},
   url          = {https://interpretabledeeplearning.github.io/}
 }
 ```

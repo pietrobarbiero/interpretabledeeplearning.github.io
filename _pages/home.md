@@ -8,63 +8,59 @@ permalink: /
 description:
 ---
 
-<div style="text-align: center; margin: 2rem auto; max-width: 800px;">
-  <blockquote style="font-size: 1.3rem; font-style: italic; color: #555; border-left: none; padding: 1rem 2rem; margin: 0;">
-    "Exploring methods to understand deep learning models"
-  </blockquote>
-</div>
+<section class="hero-panel text-center">
+  <p class="hero-tagline">Exploring methods to understand deep learning models.</p>
+</section>
 
+## What We Do
+We are a community of researchers interested in <emph>Interpretable Deep Learning (IDL)</emph>. We organize tutorials, reading groups, and open resources to foster deeper understanding and stronger collaboration across the field.
 
-## What do we do and why?
-We are a group of researchers interested in interpretable deep learning. 
-We promote initiatives including tutorials, reading groups, and resource collections to foster understanding and collaboration in this field.
-
-<div class="container-fluid" style="padding: 2rem 0; max-width: 1200px;">
-  <div class="row" style="justify-content: center; margin-bottom: 1.5rem;">
+<div class="container-fluid section-grid">
+  <div class="row justify-content-center mb-2">
     <div class="col-10 col-sm-6 col-md-6 col-lg-4 mb-4">
-      <a href="/reading_group/" style="text-decoration: none; color: inherit;">
-        <div class="card hoverable text-center" style="height: 100%; padding: 2rem;">
-          <div style="font-size: 3.5rem; margin-bottom: 1rem;">📚</div>
-          <h5 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Reading Group</h5>
-          <p style="font-size: 0.9rem; color: #666; margin: 0;">Join our weekly discussions on latest interpretability research</p>
+      <a href="/reading_group/" class="card-link-reset">
+        <div class="card hoverable text-center feature-card">
+          <div class="feature-icon">📚</div>
+          <h5 class="feature-title">Reading Group</h5>
+          <p class="feature-text">Join regular discussions on the latest interpretability research.</p>
         </div>
       </a>
     </div>
     <div class="col-10 col-sm-6 col-md-6 col-lg-4 mb-4">
-      <a href="/tutorials/" style="text-decoration: none; color: inherit;">
-        <div class="card hoverable text-center" style="height: 100%; padding: 2rem;">
-          <div style="font-size: 3.5rem; margin-bottom: 1rem;">🎓</div>
-          <h5 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Tutorials</h5>
-          <p style="font-size: 0.9rem; color: #666; margin: 0;">Learn from comprehensive tutorials on interpretable deep learning</p>
+      <a href="/tutorials/" class="card-link-reset">
+        <div class="card hoverable text-center feature-card">
+          <div class="feature-icon">🎓</div>
+          <h5 class="feature-title">Tutorials</h5>
+          <p class="feature-text">Learn from in-depth tutorials on interpretable deep learning.</p>
         </div>
       </a>
     </div>
     <div class="col-10 col-sm-6 col-md-6 col-lg-4 mb-4">
-      <a href="/resources/" style="text-decoration: none; color: inherit;">
-        <div class="card hoverable text-center" style="height: 100%; padding: 2rem;">
-          <div style="font-size: 3.5rem; margin-bottom: 1rem;">📖</div>
-          <h5 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Resources</h5>
-          <p style="font-size: 0.9rem; color: #666; margin: 0;">Explore curated papers, tools, and materials</p>
+      <a href="/resources/" class="card-link-reset">
+        <div class="card hoverable text-center feature-card">
+          <div class="feature-icon">📖</div>
+          <h5 class="feature-title">Resources</h5>
+          <p class="feature-text">Explore curated papers, tools, and community materials.</p>
         </div>
       </a>
     </div>
   </div>
-  <div class="row" style="justify-content: center;">
+  <div class="row justify-content-center">
     <div class="col-10 col-sm-6 col-md-6 col-lg-4 mb-4">
-      <a href="https://join.slack.com/t/pyc-yu37757/shared_invite/zt-3jdcsex5t-LqkU6Plj5rxFemh5bRhe_Q" style="text-decoration: none; color: inherit;">
-        <div class="card hoverable text-center" style="height: 100%; padding: 2rem;">
-          <div style="font-size: 3.5rem; margin-bottom: 1rem;">💬</div>
-          <h5 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Slack Channel</h5>
-          <p style="font-size: 0.9rem; color: #666; margin: 0;">Connect with other researchers in our community</p>
+      <a href="https://join.slack.com/t/pyc-yu37757/shared_invite/zt-3jdcsex5t-LqkU6Plj5rxFemh5bRhe_Q" class="card-link-reset">
+        <div class="card hoverable text-center feature-card">
+          <div class="feature-icon">💬</div>
+          <h5 class="feature-title">Slack Channel</h5>
+          <p class="feature-text">Connect with researchers and practitioners in the community.</p>
         </div>
       </a>
     </div>
     <div class="col-10 col-sm-6 col-md-6 col-lg-4 mb-4">
-      <a href="mailto:interpretable-deep-learning+subscribe@googlegroups.com" style="text-decoration: none; color: inherit;">
-        <div class="card hoverable text-center" style="height: 100%; padding: 2rem;">
-          <div style="font-size: 3.5rem; margin-bottom: 1rem;">✉️</div>
-          <h5 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Mailing List</h5>
-          <p style="font-size: 0.9rem; color: #666; margin: 0;">Stay updated with announcements and events</p>
+      <a href="mailto:interpretable-deep-learning+subscribe@googlegroups.com" class="card-link-reset">
+        <div class="card hoverable text-center feature-card">
+          <div class="feature-icon">✉️</div>
+          <h5 class="feature-title">Mailing List</h5>
+          <p class="feature-text">Stay updated with announcements, sessions, and events.</p>
         </div>
       </a>
     </div>
@@ -72,8 +68,8 @@ We promote initiatives including tutorials, reading groups, and resource collect
 </div>
 
 ## About Us
-  <div class="container-fluid" style="padding: 0;">
-    <div class="row projects pt-1 pb-1" style="justify-content: center; margin-bottom: 1rem;">
+  <div class="container-fluid p-0">
+    <div class="row projects pt-1 pb-1 justify-content-center mb-1">
       <div class="col-sm-6 col-md-4 mb-3">
           {% include people.html name="Aya Abdelsalam Ismail" affiliation="Co-Founder and CSO of Guide Labs, US" url="https://ayaismail.com/" img="/assets/img/people/aya.png" %}
       </div>
@@ -96,7 +92,6 @@ We promote initiatives including tutorials, reading groups, and resource collect
 
 
 ## Contact
-
-For any questions, please do not hesitate to contact Mateo at
-[mateo.espinosazarlenga@trinity.ox.uk](mailto:mateo.espinosazarlenga@trinity.ox.uk) 
+For questions, please contact Mateo at
+[mateo.espinosazarlenga@trinity.ox.uk](mailto:mateo.espinosazarlenga@trinity.ox.uk)
 or Pietro at [pietro.barbiero@ibm.com](mailto:pietro.barbiero@ibm.com).

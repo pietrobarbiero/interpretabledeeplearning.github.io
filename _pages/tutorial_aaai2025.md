@@ -5,25 +5,25 @@ title: AAAI 2025
 nav: false
 ---
 
-## Concept-based Interpretable Deep Learning
+<h2 class="text-center tutorial-main-title">Concept-based Interpretable Deep Learning</h2>
 
 <div style="margin: auto; text-align: center;">
   Tutorial held at <a href="https://aaai.org/conference/aaai/aaai-25/tutorial-and-lab-forum/">AAAI 2025</a><br>
 
   Philadelphia Convention Center (Room 120A), Philadelphia<br>
 
-  February 25th, 2025 from 2:00pm to 6:00pm<br>
+  February 25, 2025 from 2:00 PM to 6:00 PM<br>
 
 </div>
 
-You can find our  **tutorial's slides** here ([pdf](/assets/documents/AAAI_2025_Concept_based_interpretable_AI_tutorial.pdf)).
+You can find our **tutorial slides** here ([pdf](/assets/documents/AAAI_2025_Concept_based_interpretable_AI_tutorial.pdf)).
 
 
 If we get access to a recording of our presentation, we will include it in this
 section as soon as possible.
 
 For a **complete bibliography** of the topics and works discussed in this tutorial,
-pease refer to our [resources](/resources/) section.
+please refer to our [resources](/resources/) section.
 
 ## Presenters
   <div class="row projects pt-1 pb-1" style="justify-content: center;">
@@ -37,11 +37,10 @@ pease refer to our [resources](/resources/) section.
 
 ## Citing This Tutorial
 
-If you found this tutorial useful for your research, blogs, or work, we would be
-grateful if you would cite it as follows:
+If you found this tutorial useful for your research, blogs, or work, please cite it as follows:
 
 ```
-Espinosa Zarlenga M. and Barbiero P. (2025). Concept-based Interpretable Deep Learning. Tutorial at the Thirthy-Ninth Annual AAAI Conference on Artificial Intelligence (AAAI). https://interpretabledeeplearning.github.io/
+Espinosa Zarlenga M. and Barbiero P. (2025). Concept-based Interpretable Deep Learning. Tutorial at the Thirty-Ninth Annual AAAI Conference on Artificial Intelligence (AAAI). https://interpretabledeeplearning.github.io/
 ```
 
 Or use the following bibtex entry:
@@ -51,7 +50,7 @@ Or use the following bibtex entry:
   title        = {Concept-based Interpretable Deep Learning (AAAI-2025)},
   author       = {Espinosa Zarlenga M. and Barbiero P.},
   year         = {2025},
-  howpublished = {Tutorial at the Thirthy-Ninth Annual AAAI Conference on Artificial Intelligence (AAAI)}
+  howpublished = {Tutorial at the Thirty-Ninth Annual AAAI Conference on Artificial Intelligence (AAAI)},
   url          = {https://interpretabledeeplearning.github.io/}
 }
 ```
